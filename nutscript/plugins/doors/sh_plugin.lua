@@ -2,8 +2,8 @@ PLUGIN.name = "Door System"
 PLUGIN.author = "Chessnut"
 PLUGIN.desc = "Provides ability to purchase doors and defining unownable doors."
 
-nut.config.doorCost = 50
-nut.config.doorSellAmount = 25
+nut.config.doorCost = 0
+nut.config.doorSellAmount = 0
 
 if (SERVER) then
 	function PLUGIN:DoorSetUnownable(entity)

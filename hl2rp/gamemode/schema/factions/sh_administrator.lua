@@ -4,5 +4,7 @@ FACTION.color = Color(191, 57, 75)
 FACTION.isDefault = false
 FACTION.femaleModels = {"models/humans/group01/drconnors.mdl"}
 FACTION.maleModels = {"models/characters/gallaha.mdl"}
+FACTION.payTime = 300
+FACTION.pay = 200
 
 FACTION_ADMIN = FACTION.index

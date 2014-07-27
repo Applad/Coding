@@ -1,5 +1,5 @@
 ITEM.name = "Citizen ID Card"
-ITEM.model = Model("models/gibs/metal_gib4.mdl")
+ITEM.model = Model("models/dorado/tarjeta2.mdl")
 ITEM.desc = "An ID card with the digits %Digits|00000% assigned to %Name|no one%."
 ITEM.faction = {FACTION_CP, FACTION_ADMIN}
 ITEM.price = 10

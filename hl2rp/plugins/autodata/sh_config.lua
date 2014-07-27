@@ -18,5 +18,16 @@ nut.config.autoData = {
 	----------------------
 	Loyalty Points: 0
 	----------------------
+	]],
+	[FACTION_OVERWATCH] = [[
+	----------------------
+	UNIT: %name%
+	----------------------
+	UNIT DIGIT: %digits%
+	----------------------
+	MISSION SUCESS: 0
+	----------------------
+	MISSION FAILURE: 0
+	----------------------
 	]]
 }

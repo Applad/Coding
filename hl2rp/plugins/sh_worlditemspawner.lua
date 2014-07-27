@@ -14,20 +14,20 @@ PLUGIN.spawngroups = { -- Example is based on HL2RP items.
 		{"wep_smg1"},
 		{"wep_shotgun"},
 	},
-	["junks"] = { -- for machine plugin.
-		{"junk_ws"},
-		{"junk_wj"},
-		{"junk_be"},
-		{"junk_bt"},
-		{"junk_p"},
-		{"junk_ss"},
-		{"junk_bl"},
-		{"junk_k"},
-		{"junk_p"},
-		{"junk_hp"},
-		{"junk_ec"},
-		{"junk_ej"},
+	["junks"] = {
+		{"woodpiece"},
+		{"stonepiecemetal"},
+		{"stonepiecesulfur"},
+		{"stonepiece"},
+	},
+	["blueprints"] = {
+		{"blueprint_pistol"},
+		{"blueprint_pistolammo"},
+		{"blueprint_smg"},
+		{"blueprint_smgammo"},
+		{"blueprint_crossbow"}
 	}
+
 }
 
 PLUGIN.spawnrate = 30
