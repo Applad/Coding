@@ -5,13 +5,4 @@ ITEM.replacement = {"group(%d+)", "group03"}
 ITEM.price = 0
 ITEM.flag = "y"
 ITEM.weight = -2.5
-ITEM.data = {
-  Armor = 10
-}
-ITEM.functions = {}
-ITEM.functions.Wear = {
-  run = function(client)
-    if (SERVER) then
-      client:SetArmor(data.Armor)
-    end
-}
+ITEM:AddQuery("add 10 armor on wear")

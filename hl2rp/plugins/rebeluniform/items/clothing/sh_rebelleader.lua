@@ -5,13 +5,4 @@ ITEM.replacement = {"group(%d+)", "models/lambdamovement_coat.mdl"}
 ITEM.price = 0
 ITEM.flag = "y"
 ITEM.weight = -2.5
-ITEM.data = {
-  Armor = 40
-}
-ITEM.functions = {}
-ITEM.functions.Wear = {
-  run = function(client)
-    if (SERVER) then
-      client:SetArmor(data.Armor)
-    end
-}
+ITEM:AddQuery("add 40 armor on wear")
