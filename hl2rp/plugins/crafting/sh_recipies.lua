@@ -234,7 +234,7 @@ local RECIPE = {}
 RECIPE.uid = "crowbar"
 RECIPE.name = "Crowbar"
 RECIPE.category = nut.lang.Get( "icat_material" )
-yRECIPE.items = {
+RECIPE.items = {
 	["metal"] = 5,
 }
 RECIPE.result = {
