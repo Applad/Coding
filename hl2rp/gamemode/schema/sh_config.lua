@@ -17,7 +17,7 @@ nut.config.cpEliteRanks = {"EpU.", "DvL.", "SeC."}
 -- The ranks that scanners belong to.
 nut.config.scannerRanks = {"SCN.", "CLAW.SCN."}
 -- The default radio frequency for Combine.
-nut.config.radioFreq = "123.4"
+nut.config.radioFreq = "444.3"
 -- The starting weight for inventories.
 nut.config.defaultInvWeight = 7.5
 -- The rank(s) that are allowed to edit the objectives.
