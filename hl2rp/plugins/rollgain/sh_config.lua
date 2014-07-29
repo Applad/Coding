@@ -22,7 +22,7 @@ nut.config.gains.hl2rp = {
 }
 -- Gains for factions.
 nut.config.gains.factions = { 
-	  [FACTION_VORT] = 10
+	  [FACTION_VORT] = 30
 	--[FACTION_CWU] = 10 This would add 10 the the maximum people of the CWU can roll.
 }
 -- Gains for weapons.
